@@ -1,0 +1,146 @@
+* {
+  color: seashell;
+  font-family: Helvetica;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body {
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+header {
+  top: 0;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo {
+  justify-content: flex-start;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-left: 10px;
+  height: 50px;
+}
+
+header.breadcrumb {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+
+.breadcrumb li {
+  display: inline-flex;
+  margin: 0 10px 0 10px;
+}
+
+.breadcrumb a {
+  justify-content: space-between;
+  display: inline-flex;
+  text-decoration: underline;
+  opacity: 0.9;
+  font-weight: 22px;
+}
+
+.main {
+  padding: 69px auto;
+}
+
+.mission {
+  display: flex;
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*x6ssz0*_ga*NTY4MDk3MDUxLjE2MjQ4MzQ3MzA.*_ga_3LRZM6TM9L*MTY2NDY0MTM4OC44LjEuMTY2NDY0NTY0Ni41My4wLjA.');
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-statement {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  height: 125px;
+  text-align: center;
+}
+
+.mission-statement h2 {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.mission-statement h4 {
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.tea-of-the-month {
+  text-align: center;
+  width: 1000px;
+  margin: 75px auto 50px;
+  
+}
+
+.tea-pic-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.tea-pic {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 0;
+}
+
+.tea-pic-desc {
+  margin-top: 10px;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*x6ssz0*_ga*NTY4MDk3MDUxLjE2MjQ4MzQ3MzA.*_ga_3LRZM6TM9L*MTY2NDY0MTM4OC44LjEuMTY2NDY0NTY0Ni41My4wLjA.');
+}
+
+.locations-container {
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.locations h2 {
+  text-align: center;
+  padding-top: 75px;
+  opacity: 0.9;
+}
+
+.locations-block {
+  width: 300px;
+  background-color: black;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.contact {
+  opacity: 0.9;
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  opacity: 0.9;
+  margin-left: 20px;
+}
